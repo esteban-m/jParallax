@@ -1,6 +1,6 @@
 (function($) {
 	$.fn.extend({
-		mouseParallax: function(opt) {
+		jParallax: function(opt) {
 			var defaults = { moveFactor: 5, targetContainer: 'body' },
 				o = $.extend(defaults, opt);
 			return this.each(function() {
