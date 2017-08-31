@@ -23,19 +23,19 @@ On va y arriver, bon maintenant tes éléments que tu veut voir bouger, donne le
 
 T'es la ? Non.. Mais reviens c'est presque fini ! Un dernier truc, il te reste plus qu'à déclarer tes éléments !
 
-`	$('.bg1').mouseParallax({ moveFactor:  5, targetContainer: '.parallax' });`
+`	$('.bg1').jParallax({ moveFactor:  5, targetContainer: '.parallax' });`
 
-`	$('.bg2').mouseParallax({ moveFactor: 10, targetContainer: '.parallax' });`
+`	$('.bg2').jParallax({ moveFactor: 10, targetContainer: '.parallax' });`
 
-`	$('.bg3').mouseParallax({ moveFactor: 15, targetContainer: '.parallax' });`
+`	$('.bg3').jParallax({ moveFactor: 15, targetContainer: '.parallax' });`
 
-`	$('.bg4').mouseParallax({ moveFactor: 20, targetContainer: '.parallax' });`
+`	$('.bg4').jParallax({ moveFactor: 20, targetContainer: '.parallax' });`
 
 ## Explication
 
 Je t'explique vite fait c'est quoi tout ça !
 
-`$('.bg1')` Ce truc c'est la classe de ton élément, t'as le droit de mettre aussi un ID `.mouseParallax` Bon ça c'est la fonction qui fait tout le truc `({ moveFactor:  5` La c'est un facteur d'amplitude, 5 c'est la valeur par défaut si tu le met pas, met un chiffre plus gros et ton élément se déplacera plus vite ! `, targetContainer: '.parallax' });` dernier paramètre, c'est le conteneur, le parent des éléments, par défaut c'est body donc pareil t'es pas obligé de le mettre.
+`$('.bg1')` Ce truc c'est la classe de ton élément, t'as le droit de mettre aussi un ID `.jParallax` Bon ça c'est la fonction qui fait tout le truc `({ moveFactor:  5` La c'est un facteur d'amplitude, 5 c'est la valeur par défaut si tu le met pas, met un chiffre plus gros et ton élément se déplacera plus vite ! `, targetContainer: '.parallax' });` dernier paramètre, c'est le conteneur, le parent des éléments, par défaut c'est body donc pareil t'es pas obligé de le mettre.
 
 ## Credit
 
