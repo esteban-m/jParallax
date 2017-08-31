@@ -1,7 +1,7 @@
 (function($) {
 	$.fn.extend({
 		mouseParallax: function(opt) {
-			var defaults = { moveFactor: 5, zIndexValue: "-1", targetContainer: 'body' },
+			var defaults = { moveFactor: 5, targetContainer: 'body' },
 				o = $.extend(defaults, opt);
 			return this.each(function() {
 				var background = $(this);
